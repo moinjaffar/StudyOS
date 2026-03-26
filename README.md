@@ -1,28 +1,29 @@
-# StudyOS
-StudyOS – A smart learning system that analyzes study behavior, identifies weak areas, and helps students optimize performance using AI insights, focus tracking, and goal-based planning.
-# StudyOS – AI Academic Command Center
-StudyOS is not just a task tracker — it's a full academic productivity system.
+# Academic Task Tracker
 
-It helps students track their study habits, identify weak subjects, and improve performance using AI-driven insights, focus tracking, and goal-based learning.
-## 🚀 Features
+A lightweight app for tracking your day-to-day academic work:
 
-- 📊 Smart Dashboard (progress, streaks, analytics)
-- 🧠 AI Insight Engine (detect weak subjects, suggest improvements)
-- ⏱ Focus Timer (Pomodoro + deep work sessions)
-- 🎯 Goal & Task Management
-- 📅 Study Timeline (activity tracking)
-- 🤖 AI Assistant (study suggestions)
-- 🔥 Gamification (XP, streaks, achievements)
-- ## 🛠 Tech Stack
+- academic tasks
+- lectures attended
+- topics learned
 
-- Next.js (Full-stack framework)
-- TypeScript
-- Tailwind CSS
-- Firebase (Database)
-- AI Integration (custom logic)
-- ## 🧠 How It Works
+## Features
 
-1. Users add tasks and study sessions
-2. The system tracks performance and focus time
-3. AI analyzes patterns and detects weak areas
-4. Insights are generated to improve study efficiency
+- Add tasks with date, category, notes, and completion status.
+- Mark tasks completed/not completed at any time.
+- **Week-wise view** using ISO week picker.
+- **Semester-wise view** (Semester 1 = Jan–Jun, Semester 2 = Jul–Dec).
+- Built-in **dark mode / light mode** toggle with saved preference.
+- **Backup tools** to export/import task data as JSON.
+- Local browser storage with **one-year retention** (older items are auto-pruned).
+
+## Run
+
+Open `index.html` directly in your browser.
+
+For local server (optional):
+
+```bash
+python3 -m http.server 8000
+```
+
+Then visit `http://localhost:8000/academic-task-tracker/`.
